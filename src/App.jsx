@@ -1,6 +1,7 @@
 import './App.css'
 import Kitchen from './Kitchen'
 import LivingRoom from './LivingRoom'
+import Bath from './Bath'
 
 function App() {
 
@@ -8,6 +9,8 @@ function App() {
     <>
       <Kitchen />
       <LivingRoom />
+      <Bath size="Full" />
+      <Bath size="Half" />
     </>
   )
 }
